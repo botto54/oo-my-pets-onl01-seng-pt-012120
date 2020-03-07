@@ -8,8 +8,8 @@ class Cat
     @mood = "nervous"
   end
   
-  def self.all.include?
-    @cat
-  end
+  # def self.all.include?
+  #   @cat
+  # end
   
 end
