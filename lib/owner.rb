@@ -17,7 +17,7 @@ class Owner
   end
   
   def self.all
-  
+    @@all
   end
   
   def self.count
@@ -25,23 +25,23 @@ class Owner
   end
   
   def self.reset_all
-    
+    @@all.clear
   end
   
-  def cats
+  # def cats
     
-  end
+  # end
   
-  def dogs
+  # def dogs
     
-  end
+  # end
   
   def buy_cat
-    
+    @@pets[:cats] << Cat.new(cat)
   end
   
   def buy_dog
-    
+    @@pets[:dogs] << Dog.new(dog)
   end
   
   def walk_dogs
