@@ -8,8 +8,8 @@ class Cat
     @mood = "nervous"
   end
   
-  def self.all
-    
+  def self.all.include?
+    @dog
   end
   
 end
