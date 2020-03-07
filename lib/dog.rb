@@ -11,8 +11,8 @@ class Dog
     @@all << self
   end
   
-  def self.all.include?
-    @dog
-  end
+  # def self.all.include?
+  #   @dog
+  # end
   
 end
