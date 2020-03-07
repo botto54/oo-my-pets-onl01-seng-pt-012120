@@ -31,11 +31,11 @@ class Owner
   end
   
   def cats
-    # @@pets[:cats[0]]
+    @cats
   end
   
   def dogs
-    @@pets[:dogs]
+    @dogs
   end
   
   def buy_cat(cat)
