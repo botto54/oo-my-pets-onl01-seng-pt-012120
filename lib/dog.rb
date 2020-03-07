@@ -1,11 +1,11 @@
 class Dog
-  attr_accessor :mood, :owner
-  attr_reader :name
+  attr_accessor :mood
+  attr_reader :name, :owner
   
-  def initialize(name, mood="nervous")
+  def initialize(name, owner)
     @name = name
-    # @owner = owner
-    @mood = mood
+    @owner = owner
+    @mood = "nervous"
   end
   
 end
