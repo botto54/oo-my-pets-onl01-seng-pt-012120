@@ -9,7 +9,7 @@ class Cat
   end
   
   def self.all.include?
-    @dog
+    @cat
   end
   
 end
