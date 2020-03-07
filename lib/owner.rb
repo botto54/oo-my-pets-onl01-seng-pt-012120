@@ -1,5 +1,5 @@
 class Owner
-  attr_accessor :pets, :dog, :cat
+  attr_accessor :pets, :dogs, :cats
   attr_reader :species, :name
   
   @@all = []
@@ -28,11 +28,11 @@ class Owner
     @@all.clear
   end
   
-  def self.cat
+  def self.cats
     @@pets[:cats]
   end
   
-  def self.dog
+  def self.dogs
     @@pets[:dogs]
   end
   
