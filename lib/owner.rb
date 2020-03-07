@@ -28,13 +28,13 @@ class Owner
     @@all.clear
   end
   
-  # def cats
+  def cats
     
-  # end
+  end
   
-  # def dogs
+  def dogs
     
-  # end
+  end
   
   def buy_cat
     @@pets[:cats] << Cat.new(cat)
