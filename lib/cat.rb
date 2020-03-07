@@ -16,7 +16,7 @@ class Cat
     @cat
   end
   
-  def Owner.all.clear
+  def Owner.all
     
   end
   
