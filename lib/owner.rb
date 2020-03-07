@@ -29,7 +29,7 @@ class Owner
   end
   
   def cats
-    @@pets[:cats]
+    @@pets[:cats[0]]
   end
   
   def dogs
