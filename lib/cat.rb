@@ -16,8 +16,4 @@ class Cat
     @cat
   end
   
-  def Owner.all
-    
-  end
-  
 end
