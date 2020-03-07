@@ -12,4 +12,12 @@ class Cat
     
   end
   
+  def self.all
+    @cat
+  end
+  
+  def Owner.all.clear
+    
+  end
+  
 end
