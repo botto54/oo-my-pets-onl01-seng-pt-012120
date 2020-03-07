@@ -12,8 +12,8 @@ class Cat
     
   # end
   
-  def self.all
-    @cat
+  def all
+    self.all
   end
   
 end
